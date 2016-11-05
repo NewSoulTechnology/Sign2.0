@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fly_Sign</string>
+    <string name="menu">菜单</string>
+    <string name="menu_1">导入</string>
+    <string name="menu_2">添加</string>
+    <string name="menu_3">修改</string>
+    <string name="menu_4">点名</string>
+    <string name="menu_5">查询</string>
+    <string name="title">点名册</string>
+    <string name="quiet">退出</string>
+    <string name="title_1">序号</string>
+    <string name="title_2">学号</string>
+    <string name="title_3">姓名</string>
+    <string name="title_4">班级</string>
+    <string name="title_5">总成绩</string>
+</resources>
