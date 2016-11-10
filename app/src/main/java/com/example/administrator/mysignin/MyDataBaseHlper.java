@@ -15,6 +15,7 @@ public class MyDataBaseHlper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
+        sqLiteDatabase.execSQL("create table if not exists student_photos(student_id text not null,student_image null)");
         sqLiteDatabase.execSQL("create table if not exists student_info(student_id text not null,student_name text not null," +
                 "student_class text not null)");
         sqLiteDatabase.execSQL("create table if not exists student_usual_score(student_id text ,student_qimhjia integer  null,student_chidao integer  null," +
